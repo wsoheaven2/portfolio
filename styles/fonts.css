@@ -1,0 +1,80 @@
+/* =============================
+
+    GENERAL STYLES
+
+=============================*/
+.h2-headings {
+    font-size: 2.5rem;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .12rem;
+}
+
+/* =============================
+
+    HEADER STYLES
+
+=============================*/
+.cover h1 {
+    font-size: 4.5rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+.cover h2, .cover span {
+    font-size: 2.5rem;
+    font-family: 'Indie Flower', cursive;
+}
+/* =============================
+
+    EXPERIENCE STYLES
+
+=============================*/
+.experience li {
+    font-size: 1.2rem;
+}
+
+.experience h2 {
+    font-family: 'Indie Flower', cursive;
+}
+
+/* =============================
+
+    GOALS STYLES
+
+=============================*/
+.goals-paragraph {
+    font-size: 2rem;
+    line-height: 1.8;
+}
+
+.goals h2 {
+    font-family: 'Indie Flower', cursive;
+}
+
+/* =============================
+
+    PROJECTS STYLES
+
+=============================*/
+.projects li {
+    font-size: 1.2rem;
+}
+
+.projects h3 {
+    font-size: 1.2rem;
+}
+
+.projects h2 {
+    font-family: 'Indie Flower', cursive;
+}
+
+/* =============================
+
+    FOOTER STYLES
+
+=============================*/
+footer {
+    font-size: 1.1rem;
+}

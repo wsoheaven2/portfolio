@@ -1,0 +1,88 @@
+/* =============================
+
+    GENERAL STYLES
+
+=============================*/
+
+
+/* =============================
+
+    HEADER STYLES
+
+=============================*/
+.cover {
+    background: url(../images/header-background/landscape1.jpg) no-repeat fixed center/cover;
+}
+
+.header-overlay {
+    background-color: #ebebde;
+}
+
+.cover h1, .cover h2, .cover span {
+    color: #777764;
+}
+
+.cover h1::after, .cover span::before, .cover span::after {
+    background-color: #4f4747;
+}
+
+/* =============================
+
+    EXPERIENCE STYLES
+
+=============================*/
+.experience {
+    background-color: #606060FF;
+    background-image: linear-gradient(#606060FF, #101820FF);
+    color: #D6ED17FF;
+}
+
+/* =============================
+
+    GOALS STYLES
+
+=============================*/
+.goals {
+    background-color: #101820FF;
+    color: #F2AA4CFF;
+}
+
+/* =============================
+
+    PROJECTS STYLES
+
+=============================*/
+.projects {    
+    background-color: #101820FF;
+    color: #F95700FF;
+}
+
+.projects a {
+    color: #F95700FF;
+}
+
+/* =============================
+
+    FOOTER STYLES
+
+=============================*/
+footer {
+    background: url(../images/footer-background/carbon-fibre.png) repeat center;
+}
+
+footer a {
+    color: beige;
+}
+
+footer small {
+    color: #ccc;
+}
+
+.footer-nav a {     
+    color: #c75757;
+}
+
+.footer-nav a:hover {    
+    transition: color .15s ease-in-out;
+    color: #961b1b;
+}

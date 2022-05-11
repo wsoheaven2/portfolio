@@ -1,0 +1,183 @@
+/* =============================
+
+    GENERAL STYLES
+
+=============================*/
+* {
+    box-sizing: border-box;
+}
+
+.h2-headings {
+    text-align: center;
+    padding: 2.5rem;
+}
+
+/* =============================
+
+    HEADER STYLES
+
+=============================*/
+.cover {
+    display: table;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.header-text-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header-overlay {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    border: 3px solid #4f4747;
+    border-radius: 30px;
+}
+
+.header-text-container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    gap: 1rem;
+    align-items: center;
+    padding: 2rem;
+}
+
+.cover h1::after {
+    display: block;
+    content: "";
+    width: 18rem;
+    height: 0.1rem;
+    margin: 4rem auto 0 auto;
+}
+
+.cover span::before {
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 5rem;
+    height: 0.1rem;
+    margin: 0 2rem 0 0;
+}
+
+.cover span::after {
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 5rem;
+    height: 0.1rem;
+    margin: 0 0 0 2rem;
+}
+
+/* =============================
+
+    EXPERIENCE STYLES
+
+=============================*/
+.experience {
+    width: 100%;
+    height: auto;
+}
+
+.experience ul {
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.experience li {
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #D6ED17FF;
+    border-radius: 20px;
+}
+
+/* =============================
+
+    GOALS STYLES
+
+=============================*/
+.goals {
+    width: 100%;
+    height: auto;
+}
+
+.goals-paragraph {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+/* =============================
+
+    PROJECTS STYLES
+
+=============================*/
+.projects {
+    width: 100%;
+    height: auto;
+}
+
+.projects ul {
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.projects li {
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #F95700FF;
+    border-radius: 20px;
+}
+
+.projects a {
+    text-decoration: none;
+}
+
+.projects h3 {
+    text-align: right;
+    padding: 0 6rem 3rem 0;
+}
+
+/* =============================
+
+    FOOTER STYLES
+
+=============================*/
+footer {
+    display: table;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.footer-wrapper li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 1.5rem 1.2rem 2rem 1.2rem;
+}
+
+footer small {
+    display: block;
+    margin-bottom: 2rem;    
+    letter-spacing: .025rem;
+}
+
+.footer-nav a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 1rem 1rem 1rem;
+}
